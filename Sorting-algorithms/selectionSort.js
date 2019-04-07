@@ -20,6 +20,7 @@ const selectionSort = (array) => {
     array[indexOfMinElement] = array[i];
     array[i] = temp;
   }
+  return array;
 };
 
 module.exports = selectionSort;
