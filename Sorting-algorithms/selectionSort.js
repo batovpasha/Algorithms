@@ -7,7 +7,7 @@
 
     worst-case space complexity: O(1)
 */
-const selectionSort = (array) => {
+const selectionSort = array => {
   for (let i = 0; i < array.length; i++) {        // or descending order:
     let indexOfMinElement = i;                    // indexOfMaxElement
                                                   //
